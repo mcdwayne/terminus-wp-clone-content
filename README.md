@@ -9,10 +9,9 @@ While this script has worked well for us your mileage may vary due to local mach
 This repository is provided without warranty or direct support. Issues and questions may be filed in GitHub but their resolution is not guaranteed.
 
 Installation
-Installing with Composer
-`composer -n create-project mcdwayne/terminus-wp-clone-content:^1 ~/.terminus/plugins/terminus-wp-clone-content`
 
 Manual installation
+
 Clone this project into your Terminus plugins directory found at $HOME/.terminus/plugins. If the $HOME/.terminus/plugins directory does not exists you can safely create it. You will also need to run composer install in the plugin directory after cloning it. See installing Terminus plugin for details.
 
 Requirements
