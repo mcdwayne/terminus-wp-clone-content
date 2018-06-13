@@ -103,15 +103,40 @@ class WPCloneContentCommand extends TerminusCommand
 		$TEMPALT=preg_replace( "/\r|\n/", "", $TEMPALT1 ); ;
 
 	$BUILDVAR='media import '.$TEMPGUID.' --post_id='.$POSTID2.' --title=\''.$TEMPTITLE.'\' --alt=\''.$TEMPALT.'\' --featured_image ' ;
+	passthru(" terminus wp $targetsite_targetenv -- $BUILDVAR " ); 
 
- 	// echo $BUILDVAR ;
+//   Got to deal with Tags
 
-		passthru(" terminus wp $targetsite_targetenv -- $BUILDVAR " ); 
+		ob_clean();
+		$BUILDTAGVAR= "terminus wp ".$originsite_originenv." -- post term list ".$postid." post_tag --format=json" ;
+  		passthru("$BUILDTAGVAR");
+
+  		$TAGSVAR = ob_get_contents() ;
+		$TAGSVARJSON = json_decode($TAGSVAR) ;
+		$tagstring = "" ;
+
+  foreach($TAGSVARJSON as $mytag)
+
+    {
+    //this will build all terms into a string that looks like -> "term1" "term2" "termn"
+        $tagstring .= "\"".$mytag->name."\" "  ;
+    
+    } 
+
+    	$BUILDTAGVAR1 = "post term add ".$POSTID2." post_tag ".$tagstring ;
+		
+		echo "\n" ;
+		echo $tagstring ;
+		echo "\n" ;
+
+		passthru(" terminus wp $targetsite_targetenv -- $BUILDTAGVAR1 " );     
+
+
+	
 	// // only works if a new post_name to target env, otherwise fails  
 	// 	echo $TARGETENV.'-'.$TARGETSITENAME.'.pantheonsite.io/'.$POSTDATA->post_name ;
-      	echo ' ' ;
-    	echo ' ' ;
-    	echo ' ' ;
+      	echo "\n\n\n" ; ;
+    
     }
 }
 

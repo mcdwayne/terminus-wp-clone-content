@@ -1,0 +1,161 @@
+<!-- wp:paragraph -->
+
+<p>(Note to my loyal readers, yes this is not my normal format, but I wanted a platform to say this out loud, so here it is.)</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<p>I am pretty darn excited about the possibilities of the WordPress 5.0 editing experience. You might still be calling it <a href="https://wordpress.org/gutenberg/">Gutenberg</a> and that is OK, but when WP 5.0 drops it will just be 'the editor'. The idea of manipulating my content with drag and drop and <a href="https://wordpress.org/gutenberg/handbook/reference/faq/#how-will-shortcodes-work-in-gutenberg">no more messy handwritten shortcodes</a> is broadly appealing. I have a few awesome personal anecdotes about why this is so awesome but the more I talk to agencies the more I see that one of the serious concerns is giving the content editor too much control. If you can insert columns or other strange blocks 'where they don't belong' on a landing page, all hell is going to break loose with brand standards.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+
+<h3>Enter the Markdown...</h3>
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+<p>What if instead of freaking out about how to retrain our clients, we seize the opportunity to help them embrace a much cleaner path that would require almost no change in their tool chain and less than 30 minutes to master (with a cheat sheet handy of course).<br/> Markdown was specifically created as "an easy-to-read, easy-to-write plain text format, and optionally convert it to structurally valid XHTML (or HTML)"<br/> Do you want to something in italics? <i>word</i> <br/> Do you want to bold something? <strong>word</strong><br/> The notation is very stable and can be written in Word, Google Docs, notepad or (insert your favorite text editor here). Hundreds of resources are available online to help you learn it and there are so many reference materials, that might be the most overwhelming part.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+
+<h3>And what does this have to do with the WordPress 5.0 editing experience?</h3>
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+<p>You can cut and paste or WP-CLI post create from a text file into Gutenberg and it will correctly transform it into beautiful HTML. Once there, you hit one (1) button from a dropdown called 'Convert to blocks' and then you have every line break as it's own block. And the kicker here, is if you just paste in a URL to some media asset it can recognize, like a tweet or a youtube video, it will just auto form a proper block around it.</p>
+
+<!-- /wp:paragraph -->
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p><!-- wp:image {"align":"right","width":292,"height":292} -->
+<figure class="wp-block-image alignright is-resized"><img src="https://upload.wikimedia.org/wikipedia/en/e/ec/RandomBitmap.png" alt="" width="292" height="292" />
+    <figcaption>This is literally random, from wikipedia</figcaption>
+</figure>
+<!-- /wp:image --></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<!-- wp:paragraph -->
+
+<p>Once the 'base content' is there in blocks, well, the art of setting this image here and that image there and such is actually quite fun. In fact this post was made exactly this way and yes, there are random pictures from wikipedia throughout it to prove a point. I did not type those on my original post with you can see over on my Github, here: https://github.com/mcdwayne/PublicDocs/blob/master/A-Case-For-Markdown.txt</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+
+<h3>Why not just use the 5.0 editor to write your content?</h3>
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+<p>For me personally, this comes down to workflow and tool choice. I have burned myself way too many times asking my browser not to crash, refresh or otherwise forget what I am currently doing in that window while typing. Auto save points like Google Docs can make that better, but you know what never forgets? Sublime text. You know what works on airplanes? Sublime text. I do however accept that I am in, what was once descried to me as, the 0.2% of content creators who think this way currently.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<p>But what if, instead of giving your content creators a new window and a lot of shiny new toys that you <a href="https://wordpress.org/gutenberg/handbook/templates/#locking">might be able to lock down</a> but would raise so many more questions than answers, what if instead you showed them a way to be consistent with their brand content and made formatting and publishing this content a very simple, well understood process that would let you then better explain the entire editor slowly to their trusted team members. Let every intern and new person write all the Google Docs in the world, but only the trusted get to use the WP Editor.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+
+<h3>What world does that workflow exist in?</h3>
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+<p></p>
+
+<!-- /wp:paragraph -->
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p><!-- wp:image {"align":"left","width":274,"height":217} -->
+<figure class="wp-block-image alignleft is-resized"><img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Pompeii_-_Osteria_della_Via_di_Mercurio_-_Dice_Players.jpg" alt="" width="274" height="217" />
+    <figcaption>Don't copy the URL, just Copy Image and paste that, 5.0 Editor </figcaption>
+</figure>
+<!-- /wp:image --></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<!-- wp:paragraph -->
+
+<p>That is a data point I don't have. I will admit I am not doing a lot of client work where content creation is something I am involved with and have no idea if there is an audience for this beyond getting devs to turn in content faster, but I wanted to say my peace about it somewhere. Let me know on Twitter or in the comments what you think.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<p>Thanks for listening. Next post should go back to my normal format.</p>
+
+<!-- /wp:paragraph -->
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p><!-- wp:core-embed/twitter {"url":"https://twitter.com/McDwayne/status/999675890786172931","type":"rich","providerNameSlug":"twitter"} -->
+<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter">
+    https://twitter.com/McDwayne/status/999675890786172931
+</figure>
+<!-- /wp:core-embed/twitter --></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
